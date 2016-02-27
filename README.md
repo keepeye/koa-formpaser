@@ -30,6 +30,12 @@
       }
     });
 
+    app.use(function*(){
+        var posts = this.request.posts;//读取所有posts参数，这是一个json
+        var files = this.request.files;//读取所有上传文件对象
+        //...
+    });
+
 opts
 -----
 
