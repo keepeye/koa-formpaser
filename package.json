@@ -1,0 +1,33 @@
+{
+  "name": "koa-formparser",
+  "version": "1.0.0",
+  "description": "A form data parser middleware for koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keepeye/koa-formpaser.git"
+  },
+  "author": {
+    "email": "calrton.cheng@foxmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keepeye/koa-formpaser/issues"
+  },
+  "files":[
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "homepage": "https://github.com/keepeye/koa-formpaser#readme",
+  "dependencies": {
+    "co-body": "^4.0.0",
+    "formidable": "^1.0.17",
+    "lodash": "^4.5.1",
+    "qs": "^6.1.0"
+  }
+}
